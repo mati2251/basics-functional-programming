@@ -2,6 +2,8 @@ package basics
 
 def collections: Unit =
   list
+  vector
+  map
 
 def list: Unit = 
   println("LIST")
@@ -20,3 +22,15 @@ def list: Unit =
   val newPrices = 5::prices
   println(newPrices)
 
+def vector: Unit = 
+  println("VECTOR")
+  val prices = Vector(10, 20, 30, 40, 50)
+  prices.foreach { price => println(price)}
+  val newPrices = 5 +: prices
+  println(newPrices)
+
+def map: Unit = 
+  println("MAP")
+  val langs = Map("Java" -> 20, "Scala" -> 10, "Python" -> 30)
+  langs.foreach { case (key, value) => println(key + " " + value)}
+  println(langs + ("C++" -> 40))
