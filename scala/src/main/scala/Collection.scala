@@ -4,6 +4,8 @@ def collections: Unit =
   list
   vector
   map
+  mutableMap
+  lazyCollection
 
 def list: Unit = 
   println("LIST")
@@ -34,3 +36,15 @@ def map: Unit =
   val langs = Map("Java" -> 20, "Scala" -> 10, "Python" -> 30)
   langs.foreach { case (key, value) => println(key + " " + value)}
   println(langs + ("C++" -> 40))
+
+def mutableMap: Unit = 
+  val capitals = scala.collection.mutable.Map("New York" -> "Albany")
+  println(capitals)
+  capitals += ("California" -> "Sacramento")
+  println(capitals)
+
+def lazyCollection: Unit = 
+  val numbers = (1 to 100).toList
+  val squaresLazy = numbers.view.map { n => n * n }
+  println(squaresLazy)
+  println(squaresLazy.force)
