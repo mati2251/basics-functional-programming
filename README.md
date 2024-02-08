@@ -9,3 +9,6 @@ This repository contains examples of functional programming mechanisms in differ
 ## Clojure
 - [basics,homoiconicity](clojure/Main.clj)
 - [atom operations, agents](clojure/Concurency.clj)
+## Elixir
+- [pattern matching](elixir/pattern_matching.exs)
+- [concurency, actors](elixir/concurenxy.exs)
