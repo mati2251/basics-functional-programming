@@ -25,7 +25,6 @@
 (defn agent-inc-counter [counter]
   (send counter inc))
 
-;; create two agents
 (def counter1 (agent-counter))
 (def counter2 (agent-counter))
 
