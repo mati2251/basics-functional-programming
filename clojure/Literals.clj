@@ -17,4 +17,3 @@
 (println '(1 2 3)) ; list
 (println {:a 1 :b 2}) ; map
 (println #{1 2 3}) ; set
-
