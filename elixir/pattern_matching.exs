@@ -1,5 +1,7 @@
-IO.puts("Hello world from Elixir")
-IO.puts("Pattern matching in Elixir")
+# pin operator
+a = 1
+%{^a => b} = %{1 => "Pattern matching"}
+IO.puts(b)
 defmodule MyList do
   def sum([]), do: 0
   def sum([head | tail]), do: head + sum(tail)
