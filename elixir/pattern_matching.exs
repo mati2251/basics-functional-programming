@@ -45,3 +45,12 @@ end
 
 Enum.map [1, 2, 3, 4, 5], &MyEnum.square(&1) |> IO.inspect
 Enum.map 0..10, &FibonaciMod.fib(&1) |> IO.inspect
+
+defmodule MyGuard do
+  def is_even(x) when rem(x, 2) == 0, do: true
+  def is_even(_), do: false
+end
+
+defmodule DefaultArgs do
+  def greet(name \\ "world"), do: "Hello, #{name}"
+end
