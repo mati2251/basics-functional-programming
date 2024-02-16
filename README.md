@@ -15,5 +15,11 @@ My playground during learn functional programming
 - [FlowControl](clojure/FlowControl.clj)
 - [Concurency](clojure/Concurency.clj)
 ### Elixir
-- [pattern matching](elixir/pattern_matching.exs)
-- [concurency, actors](elixir/concurenxy.exs)
+- [Basics](elixir/basics.exs)
+- [Collections](elixir/collections.exs)
+- [Control structures](elixir/control_structures.exs)
+- [Enum](elixir/enum.exs)
+- [Modules](elixir/modules.exs)
+- [Pattern matching](elixir/pattern_matching.exs)
+- [Concurency, actors](elixir/concurenxy.exs)
+
