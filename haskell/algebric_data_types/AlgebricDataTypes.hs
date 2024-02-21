@@ -56,3 +56,8 @@ main = do
   putStrLn (foo brother)
   -- putStrLn (foo sister) -- This will throw an error
   putStrLn (foo2 sister)
+
+-- records type data
+data PersonRecord where
+  PersonRecord :: {name :: String, age :: Int} -> PersonRecord
+  deriving Show
