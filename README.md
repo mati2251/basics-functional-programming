@@ -22,4 +22,12 @@ My playground during learn functional programming
 - [Modules](elixir/modules.exs)
 - [Pattern matching](elixir/pattern_matching.exs)
 - [Concurency, actors](elixir/concurenxy.exs)
-
+### Haskell
+- [Basics](haskell/basics/Basics.hs)
+- [Algebric Data Types](haskell/algebric_data_types/AlgebricDataTypes.hs)
+- [Recursion, Polymporphism](haskell/recursion_polymporphism/RecursionPolymporphism.hs)
+- [Higher order functions](haskell/hof/Hof.hs)
+- [Lazy evaluation](haskell/lazy/Lazy.hs)
+- [IO](haskell/io/IO.hs)
+- [Functors](haskell/functors/Functors.hs)
+- [Monads](haskell/monads/Monads.hs)
